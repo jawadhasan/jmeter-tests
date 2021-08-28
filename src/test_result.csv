@@ -1,0 +1,14 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1630173352940,265,GetToken,200,OK,JWT 1-1,text,true,,650,231,1,1,http://localhost:2654/api/auth/signin,261,0,33
+1630173353241,11,GetData (Protected),200,OK,JWT 1-1,text,true,,219,452,1,1,http://localhost:2654/api/weatherforecast/getData,5,0,0
+1630173353266,3,Debug Sampler,200,OK,JWT 1-1,text,true,,622,0,1,1,null,0,0,0
+1630173353273,3,HTTP Get - WeatherController,200,OK,WeatherData 2-1,text,true,,671,135,1,1,http://localhost:2654/api/weatherforecast,3,0,0
+1630173353376,9,HTTP Get - WeatherController,200,OK,WeatherData 2-2,text,true,,679,135,1,1,http://localhost:2654/api/weatherforecast,9,0,2
+1630173353472,3,HTTP Get - WeatherController,200,OK,WeatherData 2-3,text,true,,671,135,1,1,http://localhost:2654/api/weatherforecast,3,0,1
+1630173353574,7,HTTP Get - WeatherController,200,OK,WeatherData 2-4,text,true,,669,135,1,1,http://localhost:2654/api/weatherforecast,7,0,3
+1630173353677,5,HTTP Get - WeatherController,200,OK,WeatherData 2-5,text,true,,679,135,1,1,http://localhost:2654/api/weatherforecast,5,0,2
+1630173353772,2,HTTP Get - WeatherController,200,OK,WeatherData 2-6,text,true,,680,135,1,1,http://localhost:2654/api/weatherforecast,2,0,1
+1630173353874,4,HTTP Get - WeatherController,200,OK,WeatherData 2-7,text,true,,678,135,1,1,http://localhost:2654/api/weatherforecast,4,0,1
+1630173353977,6,HTTP Get - WeatherController,200,OK,WeatherData 2-8,text,true,,676,135,1,1,http://localhost:2654/api/weatherforecast,6,0,2
+1630173354075,6,HTTP Get - WeatherController,200,OK,WeatherData 2-9,text,true,,677,135,1,1,http://localhost:2654/api/weatherforecast,6,0,2
+1630173354174,7,HTTP Get - WeatherController,200,OK,WeatherData 2-10,text,true,,673,135,1,1,http://localhost:2654/api/weatherforecast,7,0,3
